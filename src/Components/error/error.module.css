@@ -1,0 +1,11 @@
+.errorContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.errorContainer h2 {
+  font-size: 20px;
+}

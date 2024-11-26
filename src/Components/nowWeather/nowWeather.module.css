@@ -1,0 +1,142 @@
+.geolocation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.geolocation p {
+  margin-left: 3px;
+  color: var(--white);
+}
+
+.geolocation h3 {
+  color: #f3f3f3;
+  font-weight: 700;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #2a5298;
+}
+
+.btn {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f3f3f3;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 25px;
+  background: linear-gradient(#4f2ae542, #715cb8);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.getLocation {
+  transition: all 1s ease-in-out;
+}
+
+.infoSearch {
+  font-size: 10px;
+  color: #808080;
+}
+
+@keyframes jumping {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.getLocation:hover {
+  animation: jumping 1s ease-in-out;
+}
+
+.inputContainer {
+  width: 30%;
+  display: flex;
+}
+
+.geolocation__icon {
+  cursor: pointer;
+}
+
+.inputContainer__input {
+  background-color: #ffffff52;
+  border: none;
+  outline: none;
+  border-radius: 20px 0px 0px 20px;
+  width: 90%;
+  padding: 5px 15px;
+}
+.inputContainer__input::placeholder {
+  font-family: "Rubik", sans-serif;
+}
+
+.searching {
+  border-radius: 0px 20px 20px 0px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.searching:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.349);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #9b9b9b25;
+}
+.switcher {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.switcherBtn {
+  font-family: "Rubik", sans-serif;
+  color: #f3f3f3;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 25px;
+  background: linear-gradient(#4f2ae542, #715cb8);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.switcher span {
+  color: #2a5298;
+}
+
+.offBtn {
+  color: #ffffff52;
+  background-color: #08227621;
+}
+
+.fiveDaysWeather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.fiveDays {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.main__upperContainer {
+  margin-top: 20px;
+}

@@ -1,0 +1,56 @@
+.main__upperContainer {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  gap: 20px;
+}
+
+.main__weatherImage {
+  width: 300px;
+  height: 200px;
+}
+
+.main__temp {
+  font-size: 64px;
+}
+
+.main__tempWrapper {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.main__tempWrapper p {
+  font-size: 16px;
+}
+
+.sunset {
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+}
+
+.sunset span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: #bbbbbb;
+}
+
+.details {
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border-radius: 50px;
+  background: color(#08227694);
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.detail p {
+  display: flex;
+  align-items: center;
+}

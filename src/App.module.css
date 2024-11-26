@@ -1,0 +1,21 @@
+.body {
+  outline: none;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  background: linear-gradient(#08227694, #320368);
+  height: 100vh;
+  color: #f3f3f3;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+  height: 100%;
+}
+
+.main {
+  border-radius: 25px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-top: 50px;
+}
